@@ -1,5 +1,5 @@
-const TOKEN = '7647684508:AAEfWiAyfujY5k6ARySkrtKyEVPBTconumc'
-const CHAT_ID = '-4540151485'
+const TOKEN = ''
+const CHAT_ID = ''
 const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
 
 const success = document.querySelector('.success')
