@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <title>form</title>
+  </head>
+  <body>
+    <!-- форма обратной связи -->
+
+    <form
+      action=""
+      method="post"
+      id="form"
+    >
+      <input
+        type="text"
+        name="name"
+        placeholder="Ваше Имя"
+        required
+      />
+      <input
+        type="number"
+        name="number"
+        placeholder="Ваш номер телефона"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+      />
+      <button type="submit">Отправить</button>
+      <p class="success disp">Сообщение доставлено!</p>
+    </form>
+    <script src="order.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
